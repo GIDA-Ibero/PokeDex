@@ -93,7 +93,7 @@ const progressBars = (stats) => {
   for (let i = 0; i < 3; i++) {
     const stat = stats[i];
 
-    const statPercent = stat.base_stat / 2.55 + "%";
+    const statPercent = stat.base_stat / 2 + "%";
     const statContainer = document.createElement("div");
     statContainer.classList.add("stat-container");
 
